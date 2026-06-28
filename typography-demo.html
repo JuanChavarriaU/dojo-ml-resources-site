@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Typography Demo - DOJO ML Resources (Before/After)</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap');
+
+    body { margin: 40px; font-family: system-ui; background: #f8f9fa; color: #111; }
+    .section { margin-bottom: 60px; padding: 20px; border: 1px solid #ddd; background: white; border-radius: 8px; }
+    h2.demo { margin-top: 0; border-bottom: 2px solid #eee; padding-bottom: 8px; font-family: system-ui; }
+    .before, .after { padding: 16px; border: 1px solid #ccc; margin: 12px 0; border-radius: 4px; }
+    .label { font-size: 12px; font-weight: bold; color: #666; margin-bottom: 4px; text-transform: uppercase; }
+    
+    /* OLD (simulated before - Inter/Outfit-ish) */
+    .before {
+      font-family: 'Inter', system-ui, sans-serif;
+    }
+    .before h1, .before h2, .before h3 { font-family: 'Outfit', system-ui, sans-serif; }
+    .before .tag { font-family: monospace; }
+
+    /* NEW (after) - using exact rules */
+    .after {
+      --font-display: 'Astro Space', sans-serif;
+      --font-heading: 'Space Grotesk', 'Montserrat', sans-serif;
+      --font-body: 'Plus Jakarta Sans', sans-serif;
+      --font-mono: 'JetBrains Mono', 'Courier New', monospace;
+    }
+    .after body-like {
+      font-family: var(--font-body);
+      font-size: 17px;
+      line-height: 1.65;
+      font-weight: 400;
+      display: block;
+    }
+    .after h1, .after h2, .after h3, .after h4 {
+      font-family: var(--font-heading);
+      font-weight: 700;
+      line-height: 1.2;
+      letter-spacing: -0.01em;
+    }
+    .after .h1 { font-size: clamp(2rem, 5vw, 3.5rem); }
+    .after .h2 { font-size: clamp(1.5rem, 3.5vw, 2.25rem); }
+    .after .h3 { font-size: clamp(1.1rem, 2.5vw, 1.5rem); font-weight: 600; }
+    .after p, .after li, .after .desc { 
+      font-family: var(--font-body); 
+      font-size: 1rem;
+    }
+    .after code, .after .tag, .after .badge {
+      font-family: var(--font-mono);
+      font-size: 0.85em;
+    }
+    .after .font-display { font-family: var(--font-display); }
+  </style>
+</head>
+<body>
+  <h1 style="font-family: system-ui;">DOJO ML Resources - Typography Update Demo</h1>
+  <p>Before = simulated old (Inter + Outfit). After = new system applied (exact CSS rules + Google fonts loaded).</p>
+
+  <!-- 1. heading + paragraph block -->
+  <div class="section">
+    <h2 class="demo">(1) Heading + Paragraph Block</h2>
+    
+    <div class="label">BEFORE (old)</div>
+    <div class="before">
+      <h1 style="font-size: 2.5rem; font-weight: 800; font-family: 'Outfit', sans-serif; letter-spacing: -0.02em;">Matemáticas</h1>
+      <p style="font-family: 'Inter', sans-serif; font-size: 1rem; line-height: 1.5;">Cargando recursos y guías de estudio curadas por la comunidad para fundamentos de cálculo, álgebra lineal y probabilidad aplicados a IA y ML.</p>
+    </div>
+
+    <div class="label">AFTER (new)</div>
+    <div class="after">
+      <div style="font-family: 'Space Grotesk', 'Montserrat', sans-serif; font-weight: 700; line-height: 1.2; letter-spacing: -0.01em; font-size: clamp(2rem, 5vw, 3.5rem);">Matemáticas</div>
+      <p style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 1rem; line-height: 1.65;">Cargando recursos y guías de estudio curadas por la comunidad para fundamentos de cálculo, álgebra lineal y probabilidad aplicados a IA y ML.</p>
+    </div>
+  </div>
+
+  <!-- 2. resource card -->
+  <div class="section">
+    <h2 class="demo">(2) Resource Card (title + desc + tag)</h2>
+
+    <div class="label">BEFORE (old)</div>
+    <div class="before" style="max-width: 320px; border: 1px solid #ddd; padding: 16px; border-radius: 12px; background: #fff;">
+      <div style="display:flex; justify-content: space-between;">
+        <span class="tag" style="font-size: 10px; background:#fee; color:#c00; padding:2px 6px; border-radius: 999px;">YOUTUBE</span>
+      </div>
+      <h3 style="font-family: 'Outfit', sans-serif; font-size: 16px; font-weight: 600; margin: 8px 0;">Calculo para ML y DS</h3>
+      <div class="desc" style="font-family: 'Inter', sans-serif; font-size: 13px; color: #555; line-height: 1.4;">Curso completo de cálculo aplicado a machine learning en Coursera por Imperial College.</div>
+      <div style="margin-top: 12px; font-size: 12px; color: #888;">Ir al recurso →</div>
+    </div>
+
+    <div class="label">AFTER (new)</div>
+    <div class="after" style="max-width: 320px; border: 1px solid #ddd; padding: 16px; border-radius: 12px; background: #fff;">
+      <div style="display:flex; justify-content: space-between;">
+        <span class="tag" style="font-family: 'JetBrains Mono', monospace; font-size: 0.85em; background:#fee; color:#c00; padding:2px 6px; border-radius: 999px;">YOUTUBE</span>
+      </div>
+      <div class="h3" style="font-family: 'Space Grotesk', 'Montserrat', sans-serif; font-weight: 700; line-height: 1.2; letter-spacing: -0.01em; font-size: 16px; margin: 8px 0;">Calculo para ML y DS</div>
+      <div class="desc" style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 1rem; color: #555; line-height: 1.65;">Curso completo de cálculo aplicado a machine learning en Coursera por Imperial College.</div>
+      <div style="margin-top: 12px; font-size: 12px; color: #888;">Ir al recurso →</div>
+    </div>
+  </div>
+
+  <!-- 3. code snippet -->
+  <div class="section">
+    <h2 class="demo">(3) Code Snippet</h2>
+
+    <div class="label">BEFORE (old)</div>
+    <div class="before">
+      <pre style="font-family: 'Courier New', monospace; background:#f4f4f4; padding:12px; border-radius:6px; font-size: 0.9em;"><code>const model = tf.sequential();
+model.add(tf.layers.dense({units: 1}));</code></pre>
+    </div>
+
+    <div class="label">AFTER (new)</div>
+    <div class="after">
+      <pre style="font-family: 'JetBrains Mono', 'Courier New', monospace; background:#f4f4f4; padding:12px; border-radius:6px; font-size: 0.85em;"><code>const model = tf.sequential();
+model.add(tf.layers.dense({units: 1}));</code></pre>
+    </div>
+  </div>
+
+  <p><strong>Note:</strong> Open this file in a browser to see real font rendering (requires internet for Google Fonts). The new system uses tighter tracking on headings, better body readability at 17px/1.65, and mono for technical elements.</p>
+</body>
+</html>
