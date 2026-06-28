@@ -1,0 +1,15 @@
+{
+  "name": "dojo-ml-recursos-site",
+  "version": "1.0.0",
+  "description": "DOJO ML - Recursos Website",
+  "type": "module",
+  "packageManager": "pnpm@9.15.9",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^8.1.0"
+  }
+}

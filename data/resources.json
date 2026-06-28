@@ -1,0 +1,819 @@
+{
+  "matemticas": {
+    "name": "Matemáticas",
+    "icon": "📐",
+    "elements": [
+      {
+        "type": "list_item",
+        "depth": 1,
+        "text": "Calculo para IA",
+        "links": []
+      },
+      {
+        "type": "list_item",
+        "depth": 2,
+        "text": "Calculo para ML y DS: https://www.coursera.org/learn/machine-learning-calculus#modules",
+        "links": [
+          {
+            "url": "https://www.coursera.org/learn/machine-learning-calculus#modules",
+            "text": "https://www.coursera.org/learn/machine-learning-calculus#modules"
+          }
+        ]
+      },
+      {
+        "type": "list_item",
+        "depth": 2,
+        "text": "Matemática para ML y DS: https://www.coursera.org/specializations/mathematics-for-machine-learning-and-data-science#courses",
+        "links": [
+          {
+            "url": "https://www.coursera.org/specializations/mathematics-for-machine-learning-and-data-science#courses",
+            "text": "https://www.coursera.org/specializations/mathematics-for-machine-learning-and-data-science#courses"
+          }
+        ]
+      },
+      {
+        "type": "list_item",
+        "depth": 2,
+        "text": "Digital Learning Hub - Imperial College London: https://www.youtube.com/watch?v=cWZLPv4ZJhE&list=PLiiljHvN6z193BBzS0Ln8NnqQmzimTW23&pp=iAQB",
+        "links": [
+          {
+            "url": "https://www.youtube.com/watch?v=cWZLPv4ZJhE&list=PLiiljHvN6z193BBzS0Ln8NnqQmzimTW23&pp=iAQB",
+            "text": "https://www.youtube.com/watch?v=cWZLPv4ZJhE&list=PLiiljHvN6z193BBzS0Ln8NnqQmzimTW23&pp=iAQB"
+          }
+        ]
+      },
+      {
+        "type": "list_item",
+        "depth": 2,
+        "text": "Calculus for Machine Learning (7-day mini-course): https://machinelearningmastery.com/calculus-for-machine-learning-7-day-mini-course/",
+        "links": [
+          {
+            "url": "https://machinelearningmastery.com/calculus-for-machine-learning-7-day-mini-course/",
+            "text": "https://machinelearningmastery.com/calculus-for-machine-learning-7-day-mini-course/"
+          }
+        ]
+      },
+      {
+        "type": "list_item",
+        "depth": 2,
+        "text": "Matemáticas para ML y DS: https://www.deeplearning.ai/courses/mathematics-for-machine-learning-and-data-science-specialization",
+        "links": [
+          {
+            "url": "https://www.deeplearning.ai/courses/mathematics-for-machine-learning-and-data-science-specialization",
+            "text": "https://www.deeplearning.ai/courses/mathematics-for-machine-learning-and-data-science-specialization"
+          }
+        ]
+      },
+      {
+        "type": "list_item",
+        "depth": 1,
+        "text": "Algebra lineal",
+        "links": []
+      },
+      {
+        "type": "list_item",
+        "depth": 2,
+        "text": "Esenciales de algebra lineal 3blue1brown: https://www.youtube.com/watch?v=fNk_zzaMoSs&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab&pp=iAQB",
+        "links": [
+          {
+            "url": "https://www.youtube.com/watch?v=fNk_zzaMoSs&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab&pp=iAQB",
+            "text": "https://www.youtube.com/watch?v=fNk_zzaMoSs&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab&pp=iAQB"
+          }
+        ]
+      },
+      {
+        "type": "list_item",
+        "depth": 2,
+        "text": "Digital Learning Hub - Imperial College London: https://www.youtube.com/watch?v=T73ldK46JqE&list=PLiiljHvN6z1_o1ztXTKWPrShrMrBLo5P3&pp=iAQB",
+        "links": [
+          {
+            "url": "https://www.youtube.com/watch?v=T73ldK46JqE&list=PLiiljHvN6z1_o1ztXTKWPrShrMrBLo5P3&pp=iAQB",
+            "text": "https://www.youtube.com/watch?v=T73ldK46JqE&list=PLiiljHvN6z1_o1ztXTKWPrShrMrBLo5P3&pp=iAQB"
+          }
+        ]
+      },
+      {
+        "type": "list_item",
+        "depth": 1,
+        "text": "Probabilidad y estadística",
+        "links": []
+      },
+      {
+        "type": "list_item",
+        "depth": 2,
+        "text": "Principio de estadística por IBM: Statistics 101 | Cognitive Class",
+        "links": [
+          {
+            "url": "https://cognitiveclass.ai/courses/statistics-101",
+            "text": "Statistics 101 | Cognitive Class"
+          }
+        ]
+      }
+    ]
+  },
+  "aprendizaje-automtico": {
+    "name": "Aprendizaje Automático",
+    "icon": "🖥️",
+    "elements": [
+      {
+        "type": "list_item",
+        "depth": 1,
+        "text": "Introducción al Machine learning: https://www.coursera.org/specializations/machine-learning-introduction",
+        "links": [
+          {
+            "url": "https://www.coursera.org/specializations/machine-learning-introduction",
+            "text": "https://www.coursera.org/specializations/machine-learning-introduction"
+          }
+        ]
+      },
+      {
+        "type": "list_item",
+        "depth": 1,
+        "text": "Intermedio",
+        "links": []
+      },
+      {
+        "type": "list_item",
+        "depth": 2,
+        "text": "Aprendizaje no supervisado:",
+        "links": []
+      },
+      {
+        "type": "list_item",
+        "depth": 2,
+        "text": "https://www.udacity.com/course/machine-learning-unsupervised-learning--ud741?irclickid=U40QgZ1vixyPWAO1d2wnI1exUkFRku3m53I8SI0&irgwc=1&utm_source=affiliate&utm_medium=&aff=2406137&utm_term=&utm_campaign=__&utm_content=&adid=786224",
+        "links": [
+          {
+            "url": "https://www.udacity.com/course/machine-learning-unsupervised-learning--ud741?irclickid=U40QgZ1vixyPWAO1d2wnI1exUkFRku3m53I8SI0&irgwc=1&utm_source=affiliate&utm_medium=&aff=2406137&utm_term=&utm_campaign=__&utm_content=&adid=786224",
+            "text": "https://www.udacity.com/course/machine-learning-unsupervised-learning--ud741?irclickid=U40QgZ1vixyPWAO1d2wnI1exUkFRku3m53I8SI0&irgwc=1&utm_source=affiliate&utm_medium=&aff=2406137&utm_term=&utm_campaign=__&utm_content=&adid=786224"
+          }
+        ]
+      },
+      {
+        "type": "list_item",
+        "depth": 2,
+        "text": "Aprendizaje supervisado:",
+        "links": []
+      },
+      {
+        "type": "list_item",
+        "depth": 2,
+        "text": "Aprendizaje automático supervisado: regresión y clasificación: https://www.coursera.org/learn/machine-learning?aid=true&irclickid=T%3Aq12O1vhxyPWjLz67xZCWaxUkFRkoy-53I8SI0&irgwc=1&utm_campaign=3310965&utm_content=b2c&utm_medium=partners&utm_source=impact",
+        "links": [
+          {
+            "url": "https://www.coursera.org/learn/machine-learning?aid=true&irclickid=T%3Aq12O1vhxyPWjLz67xZCWaxUkFRkoy-53I8SI0&irgwc=1&utm_campaign=3310965&utm_content=b2c&utm_medium=partners&utm_source=impact",
+            "text": "https://www.coursera.org/learn/machine-learning?aid=true&irclickid=T%3Aq12O1vhxyPWjLz67xZCWaxUkFRkoy-53I8SI0&irgwc=1&utm_campaign=3310965&utm_content=b2c&utm_medium=partners&utm_source=impact"
+          }
+        ]
+      },
+      {
+        "type": "list_item",
+        "depth": 2,
+        "text": "Aprendizaje por refuerzo:",
+        "links": []
+      },
+      {
+        "type": "list_item",
+        "depth": 2,
+        "text": "https://www.udacity.com/course/reinforcement-learning--ud600?irclickid=U40QgZ1vixyPWAO1d2wnI1exUkFRkuTv53I8SI0&irgwc=1&utm_source=affiliate&utm_medium=&aff=2406137&utm_term=&utm_campaign=__&utm_content=&adid=786224",
+        "links": [
+          {
+            "url": "https://www.udacity.com/course/reinforcement-learning--ud600?irclickid=U40QgZ1vixyPWAO1d2wnI1exUkFRkuTv53I8SI0&irgwc=1&utm_source=affiliate&utm_medium=&aff=2406137&utm_term=&utm_campaign=__&utm_content=&adid=786224",
+            "text": "https://www.udacity.com/course/reinforcement-learning--ud600?irclickid=U40QgZ1vixyPWAO1d2wnI1exUkFRkuTv53I8SI0&irgwc=1&utm_source=affiliate&utm_medium=&aff=2406137&utm_term=&utm_campaign=__&utm_content=&adid=786224"
+          }
+        ]
+      },
+      {
+        "type": "list_item",
+        "depth": 1,
+        "text": "Avanzado",
+        "links": []
+      },
+      {
+        "type": "list_item",
+        "depth": 2,
+        "text": "Aprendizaje automático en producción: https://www.deeplearning.ai/courses/machine-learning-in-production",
+        "links": [
+          {
+            "url": "https://www.deeplearning.ai/courses/machine-learning-in-production",
+            "text": "https://www.deeplearning.ai/courses/machine-learning-in-production"
+          }
+        ]
+      },
+      {
+        "type": "list_item",
+        "depth": 2,
+        "text": "Especialización en ML: https://www.deeplearning.ai/courses/machine-learning-specialization",
+        "links": [
+          {
+            "url": "https://www.deeplearning.ai/courses/machine-learning-specialization",
+            "text": "https://www.deeplearning.ai/courses/machine-learning-specialization"
+          }
+        ]
+      }
+    ]
+  },
+  "aprendizaje-profundo": {
+    "name": "Aprendizaje Profundo",
+    "icon": "🧠",
+    "elements": [
+      {
+        "type": "list_item",
+        "depth": 1,
+        "text": "Intro to Deep Learning with PyTorch: https://www.udacity.com/course/deep-learning-pytorch--ud188?irclickid=U40QgZ1vixyPWAO1d2wnI1exUkFRkr2H53I8SI0&irgwc=1&utm_source=affiliate&utm_medium=&aff=2406137&utm_term=&utm_campaign=__&utm_content=&adid=786224",
+        "links": [
+          {
+            "url": "https://www.udacity.com/course/deep-learning-pytorch--ud188?irclickid=U40QgZ1vixyPWAO1d2wnI1exUkFRkr2H53I8SI0&irgwc=1&utm_source=affiliate&utm_medium=&aff=2406137&utm_term=&utm_campaign=__&utm_content=&adid=786224",
+            "text": "https://www.udacity.com/course/deep-learning-pytorch--ud188?irclickid=U40QgZ1vixyPWAO1d2wnI1exUkFRkr2H53I8SI0&irgwc=1&utm_source=affiliate&utm_medium=&aff=2406137&utm_term=&utm_campaign=__&utm_content=&adid=786224"
+          }
+        ]
+      },
+      {
+        "type": "list_item",
+        "depth": 1,
+        "text": "Intro to tensorflow and deep learning: https://www.udacity.com/course/intro-to-tensorflow-for-deep-learning--ud187?irclickid=U40QgZ1vixyPWAO1d2wnI1exUkFRkr2f53I8SI0&irgwc=1&utm_source=affiliate&utm_medium=&aff=2406137&utm_term=&utm_campaign=__&utm_content=&adid=786224",
+        "links": [
+          {
+            "url": "https://www.udacity.com/course/intro-to-tensorflow-for-deep-learning--ud187?irclickid=U40QgZ1vixyPWAO1d2wnI1exUkFRkr2f53I8SI0&irgwc=1&utm_source=affiliate&utm_medium=&aff=2406137&utm_term=&utm_campaign=__&utm_content=&adid=786224",
+            "text": "https://www.udacity.com/course/intro-to-tensorflow-for-deep-learning--ud187?irclickid=U40QgZ1vixyPWAO1d2wnI1exUkFRkr2f53I8SI0&irgwc=1&utm_source=affiliate&utm_medium=&aff=2406137&utm_term=&utm_campaign=__&utm_content=&adid=786224"
+          }
+        ]
+      },
+      {
+        "type": "list_item",
+        "depth": 1,
+        "text": "Programa especializado: Generative Adversarial Networks (GANs): https://www.deeplearning.ai/courses/generative-adversarial-networks-gans-specialization",
+        "links": [
+          {
+            "url": "https://www.deeplearning.ai/courses/generative-adversarial-networks-gans-specialization",
+            "text": "https://www.deeplearning.ai/courses/generative-adversarial-networks-gans-specialization"
+          }
+        ]
+      }
+    ]
+  },
+  "inteligencia-artificial": {
+    "name": "Inteligencia Artificial",
+    "icon": "🧠",
+    "elements": [
+      {
+        "type": "list_item",
+        "depth": 1,
+        "text": "Básico",
+        "links": []
+      },
+      {
+        "type": "list_item",
+        "depth": 2,
+        "text": "AI for beginner by Microsoft: AI for Beginners (microsoft.github.io)",
+        "links": [
+          {
+            "url": "https://microsoft.github.io/AI-For-Beginners/",
+            "text": "AI for Beginners (microsoft.github.io)"
+          }
+        ]
+      },
+      {
+        "type": "list_item",
+        "depth": 2,
+        "text": "AI for everyone by Deep Learning AI: https://www.deeplearning.ai/courses/ai-for-everyone",
+        "links": [
+          {
+            "url": "https://www.deeplearning.ai/courses/ai-for-everyone",
+            "text": "https://www.deeplearning.ai/courses/ai-for-everyone"
+          }
+        ]
+      },
+      {
+        "type": "list_item",
+        "depth": 1,
+        "text": "Intermedio",
+        "links": []
+      },
+      {
+        "type": "list_item",
+        "depth": 2,
+        "text": "Curso de Inteligencia artificial facilitado por Structuralia a través de la OEA: Artificial Intelligence | OAS Youth Academy (comcytcentral.org)",
+        "links": [
+          {
+            "url": "https://www.youthacademy.comcytcentral.org/ai-course",
+            "text": "Artificial Intelligence | OAS Youth Academy (comcytcentral.org)"
+          }
+        ]
+      },
+      {
+        "type": "list_item",
+        "depth": 1,
+        "text": "Avanzado",
+        "links": []
+      },
+      {
+        "type": "list_item",
+        "depth": 2,
+        "text": "Especialización en Machine learning: https://www.deeplearning.ai/courses/machine-learning-specialization",
+        "links": []
+      }
+    ]
+  },
+  "computer-vision": {
+    "name": "Computer Vision",
+    "icon": "📷",
+    "elements": [
+      {
+        "type": "list_item",
+        "depth": 1,
+        "text": "Computer vision con python: https://www.udemy.com/course/computer-vision-with-opencv-official-opencv-free-course/",
+        "links": [
+          {
+            "url": "https://www.udemy.com/course/computer-vision-with-opencv-official-opencv-free-course/",
+            "text": "https://www.udemy.com/course/computer-vision-with-opencv-official-opencv-free-course/"
+          }
+        ]
+      },
+      {
+        "type": "list_item",
+        "depth": 1,
+        "text": "Computer vision by Kaggle: https://www.kaggle.com/learn/computer-vision",
+        "links": [
+          {
+            "url": "https://www.kaggle.com/learn/computer-vision",
+            "text": "https://www.kaggle.com/learn/computer-vision"
+          }
+        ]
+      }
+    ]
+  },
+  "nlp-natural-language-processing": {
+    "name": "NLP (Natural Language Processing)",
+    "icon": "📚",
+    "elements": [
+      {
+        "type": "paragraph",
+        "text": "Especialización en NLP: https://www.deeplearning.ai/courses/natural-language-processing-specialization",
+        "links": [
+          {
+            "url": "https://www.deeplearning.ai/courses/natural-language-processing-specialization",
+            "text": "https://www.deeplearning.ai/courses/natural-language-processing-specialization"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "IA para medicina: https://www.deeplearning.ai/courses/ai-for-medicine-specialization",
+        "links": [
+          {
+            "url": "https://www.deeplearning.ai/courses/ai-for-medicine-specialization",
+            "text": "https://www.deeplearning.ai/courses/ai-for-medicine-specialization"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Especialización en aprendizaje profundo: https://www.deeplearning.ai/courses/deep-learning-specialization",
+        "links": [
+          {
+            "url": "https://www.deeplearning.ai/courses/deep-learning-specialization",
+            "text": "https://www.deeplearning.ai/courses/deep-learning-specialization"
+          }
+        ]
+      }
+    ]
+  },
+  "robtica": {
+    "name": "Robótica",
+    "icon": "🤖",
+    "elements": [
+      {
+        "type": "paragraph",
+        "text": "CircuitPython: CircuitPython",
+        "links": [
+          {
+            "url": "https://circuitpython.org/",
+            "text": "CircuitPython"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Repositorio de recursos para aprender robotica: https://github.com/mithi/robotics-coursework",
+        "links": [
+          {
+            "url": "https://github.com/mithi/robotics-coursework",
+            "text": "https://github.com/mithi/robotics-coursework"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "TinkerCad: Tinkercad Tinkercad - From mind to design in minutes",
+        "links": [
+          {
+            "url": "https://www.tinkercad.com/",
+            "text": "Tinkercad Tinkercad - From mind to design in minutes"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Arduino: https://www.arduino.cc/",
+        "links": [
+          {
+            "url": "https://www.arduino.cc/",
+            "text": "https://www.arduino.cc/"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Mejor kit para iniciar en la robótica: https://www.amazon.com/iniciación-Proyecto-Elegoo-tutorial-Arduino/dp/B01D8KOZF4/ref=sr_1_1_sspa?__mk_es_US=ÅMÅŽÕÑ&crid=4GRIKN5CLOMW&dib=eyJ2IjoiMSJ9.yTJWcx_WaSx7yq77bFuJ5UL0SFGzPWZzT3Z65VuWZCm2n6rXGOc9ErkG2hfPD3SzPRqBUpOAnE7dDlqF-eklREPVscXbMiS3vhEL1S8qvtlHigkTjfxv7vs5MC4z0XphM5Zp83cgbmb2njQ9kA0EnJfrnPhluX9c8DDMIKO0idmpV_z4bz98g96TSVUFGLJ5EC6NfV5AUitPvquhM_B5sXtL-YItXVRnnnebXQe1CFo.gCFmeW27CqpGRnAGp6YOoNZKF-VoarILA076QbgixVI&dib_tag=se&keywords=elegoo+arduino+uno&qid=1725342355&sprefix=elegoo+arduino+uno%2Caps%2C139&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1",
+        "links": [
+          {
+            "url": "https://www.amazon.com/iniciaci%C3%B3n-Proyecto-Elegoo-tutorial-Arduino/dp/B01D8KOZF4/ref=sr_1_1_sspa?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=4GRIKN5CLOMW&dib=eyJ2IjoiMSJ9.yTJWcx_WaSx7yq77bFuJ5UL0SFGzPWZzT3Z65VuWZCm2n6rXGOc9ErkG2hfPD3SzPRqBUpOAnE7dDlqF-eklREPVscXbMiS3vhEL1S8qvtlHigkTjfxv7vs5MC4z0XphM5Zp83cgbmb2njQ9kA0EnJfrnPhluX9c8DDMIKO0idmpV_z4bz98g96TSVUFGLJ5EC6NfV5AUitPvquhM_B5sXtL-YItXVRnnnebXQe1CFo.gCFmeW27CqpGRnAGp6YOoNZKF-VoarILA076QbgixVI&dib_tag=se&keywords=elegoo+arduino+uno&qid=1725342355&sprefix=elegoo+arduino+uno%2Caps%2C139&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1",
+            "text": "https://www.amazon.com/iniciación-Proyecto-Elegoo-tutorial-Arduino/dp/B01D8KOZF4/ref=sr_1_1_sspa?__mk_es_US=ÅMÅŽÕÑ&crid=4GRIKN5CLOMW&dib=eyJ2IjoiMSJ9.yTJWcx_WaSx7yq77bFuJ5UL0SFGzPWZzT3Z65VuWZCm2n6rXGOc9ErkG2hfPD3SzPRqBUpOAnE7dDlqF-eklREPVscXbMiS3vhEL1S8qvtlHigkTjfxv7vs5MC4z0XphM5Zp83cgbmb2njQ9kA0EnJfrnPhluX9c8DDMIKO0idmpV_z4bz98g96TSVUFGLJ5EC6NfV5AUitPvquhM_B5sXtL-YItXVRnnnebXQe1CFo.gCFmeW27CqpGRnAGp6YOoNZKF-VoarILA076QbgixVI&dib_tag=se&keywords=elegoo+arduino+uno&qid=1725342355&sprefix=elegoo+arduino+uno%2Caps%2C139&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"
+          }
+        ]
+      }
+    ]
+  },
+  "ia-generativa": {
+    "name": "IA Generativa",
+    "icon": "📕",
+    "elements": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Prueba tus habilidades de prompt.",
+        "links": []
+      },
+      {
+        "type": "paragraph",
+        "text": "Gandalf | Lakera – Test your prompting skills to make Gandalf reveal secret information.",
+        "links": [
+          {
+            "url": "https://gandalf.lakera.ai/word-blacklist",
+            "text": "Gandalf | Lakera – Test your prompting skills to make Gandalf reveal secret information."
+          }
+        ]
+      }
+    ]
+  },
+  "ambientes-de-laboratorio-prctica": {
+    "name": "Ambientes de laboratorio / práctica",
+    "icon": "🏋🏻‍♀️",
+    "elements": [
+      {
+        "type": "list_item",
+        "depth": 1,
+        "text": "MachineHack: https://machinehack.com/practices",
+        "links": [
+          {
+            "url": "https://machinehack.com/practices",
+            "text": "https://machinehack.com/practices"
+          }
+        ]
+      },
+      {
+        "type": "list_item",
+        "depth": 1,
+        "text": "Google Colab: https://colab.research.google.com/notebooks/welcome.ipynb#scrollTo=xitplqMNk_Hc",
+        "links": [
+          {
+            "url": "https://colab.research.google.com/notebooks/welcome.ipynb#scrollTo=xitplqMNk_Hc",
+            "text": "https://colab.research.google.com/notebooks/welcome.ipynb#scrollTo=xitplqMNk_Hc"
+          }
+        ]
+      },
+      {
+        "type": "list_item",
+        "depth": 1,
+        "text": "Kaggle datasets para practicar: https://www.kaggle.com/datasets",
+        "links": [
+          {
+            "url": "https://www.kaggle.com/datasets",
+            "text": "https://www.kaggle.com/datasets"
+          }
+        ]
+      },
+      {
+        "type": "list_item",
+        "depth": 1,
+        "text": "OpenML: https://www.openml.org/",
+        "links": [
+          {
+            "url": "https://www.openml.org/",
+            "text": "https://www.openml.org/"
+          }
+        ]
+      }
+    ]
+  },
+  "certificaciones": {
+    "name": "Certificaciones",
+    "icon": "🎓",
+    "elements": [
+      {
+        "type": "paragraph",
+        "text": "AWS",
+        "links": []
+      },
+      {
+        "type": "list_item",
+        "depth": 1,
+        "text": "Cloud practitioner (Fundational): https://aws.amazon.com/es/certification/certified-cloud-practitioner/",
+        "links": [
+          {
+            "url": "https://aws.amazon.com/es/certification/certified-cloud-practitioner/",
+            "text": "https://aws.amazon.com/es/certification/certified-cloud-practitioner/"
+          }
+        ]
+      },
+      {
+        "type": "list_item",
+        "depth": 1,
+        "text": "Solutions Architect (Associate): https://aws.amazon.com/es/certification/certified-solutions-architect-associate/",
+        "links": [
+          {
+            "url": "https://aws.amazon.com/es/certification/certified-solutions-architect-associate/",
+            "text": "https://aws.amazon.com/es/certification/certified-solutions-architect-associate/"
+          }
+        ]
+      },
+      {
+        "type": "list_item",
+        "depth": 1,
+        "text": "Machine Learning (Specialty): https://aws.amazon.com/es/certification/certified-machine-learning-specialty/",
+        "links": [
+          {
+            "url": "https://aws.amazon.com/es/certification/certified-machine-learning-specialty/",
+            "text": "https://aws.amazon.com/es/certification/certified-machine-learning-specialty/"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Azure",
+        "links": []
+      },
+      {
+        "type": "list_item",
+        "depth": 1,
+        "text": "Azure Fundamentals: https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals/",
+        "links": [
+          {
+            "url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals/",
+            "text": "https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals/"
+          }
+        ]
+      },
+      {
+        "type": "list_item",
+        "depth": 1,
+        "text": "Azure AI Engineer Associate: https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-engineer/",
+        "links": [
+          {
+            "url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-engineer/",
+            "text": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-engineer/"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Google Cloud",
+        "links": []
+      },
+      {
+        "type": "list_item",
+        "depth": 1,
+        "text": "Cloud Engineer Associate: https://cloud.google.com/learn/certification/cloud-engineer?hl=es-419",
+        "links": [
+          {
+            "url": "https://cloud.google.com/learn/certification/cloud-engineer?hl=es-419",
+            "text": "https://cloud.google.com/learn/certification/cloud-engineer?hl=es-419"
+          }
+        ]
+      },
+      {
+        "type": "list_item",
+        "depth": 1,
+        "text": "Machine Learning Engineer: https://cloud.google.com/learn/certification/machine-learning-engineer?hl=es-419",
+        "links": [
+          {
+            "url": "https://cloud.google.com/learn/certification/machine-learning-engineer?hl=es-419",
+            "text": "https://cloud.google.com/learn/certification/machine-learning-engineer?hl=es-419"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Tensorflow",
+        "links": []
+      },
+      {
+        "type": "list_item",
+        "depth": 1,
+        "text": "Certificacion en desarrollador de tensorflow: https://www.tensorflow.org/certificate?hl=es-419",
+        "links": [
+          {
+            "url": "https://www.tensorflow.org/certificate?hl=es-419",
+            "text": "https://www.tensorflow.org/certificate?hl=es-419"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "CompTIA",
+        "links": []
+      },
+      {
+        "type": "list_item",
+        "depth": 1,
+        "text": "Data+: Certificación Data+ (Plus) | Certificaciones de TI de CompTIA",
+        "links": [
+          {
+            "url": "https://www.comptia.org/es/certificaciones/data",
+            "text": "Certificación Data+ (Plus) | Certificaciones de TI de CompTIA"
+          }
+        ]
+      },
+      {
+        "type": "list_item",
+        "depth": 1,
+        "text": "DataSys+: Certificación DataSys+ (Plus) | Certificaciones de TI de CompTIA",
+        "links": [
+          {
+            "url": "https://www.comptia.org/es/certificaciones/datasys",
+            "text": "Certificación DataSys+ (Plus) | Certificaciones de TI de CompTIA"
+          }
+        ]
+      },
+      {
+        "type": "list_item",
+        "depth": 1,
+        "text": "DataX: DataX Certification | CompTIA IT Certifications",
+        "links": [
+          {
+            "url": "https://www.comptia.org/certifications/datax",
+            "text": "DataX Certification | CompTIA IT Certifications"
+          }
+        ]
+      }
+    ]
+  },
+  "sitios-de-lectura": {
+    "name": "Sitios de lectura",
+    "icon": "📖",
+    "elements": [
+      {
+        "type": "list_item",
+        "depth": 1,
+        "text": "AI Expert Roadmap: https://i.am.ai/roadmap/#note",
+        "links": [
+          {
+            "url": "https://i.am.ai/roadmap/#note",
+            "text": "https://i.am.ai/roadmap/#note"
+          }
+        ]
+      },
+      {
+        "type": "list_item",
+        "depth": 1,
+        "text": "DLabs.AI: https://dlabs.ai/blog/category/ai/",
+        "links": [
+          {
+            "url": "https://dlabs.ai/blog/category/ai/",
+            "text": "https://dlabs.ai/blog/category/ai/"
+          }
+        ]
+      },
+      {
+        "type": "list_item",
+        "depth": 1,
+        "text": "Reddit https://www.reddit.com/r/ArtificialInteligence/",
+        "links": [
+          {
+            "url": "https://www.reddit.com/r/ArtificialInteligence/",
+            "text": "https://www.reddit.com/r/ArtificialInteligence/"
+          }
+        ]
+      },
+      {
+        "type": "list_item",
+        "depth": 1,
+        "text": "Towards data science: https://towardsdatascience.com/",
+        "links": [
+          {
+            "url": "https://towardsdatascience.com/",
+            "text": "https://towardsdatascience.com/"
+          }
+        ]
+      },
+      {
+        "type": "list_item",
+        "depth": 1,
+        "text": "FastML: https://fastml.com/",
+        "links": [
+          {
+            "url": "https://fastml.com/",
+            "text": "https://fastml.com/"
+          }
+        ]
+      },
+      {
+        "type": "list_item",
+        "depth": 1,
+        "text": "Distill AI: https://distill.pub/",
+        "links": [
+          {
+            "url": "https://distill.pub/",
+            "text": "https://distill.pub/"
+          }
+        ]
+      },
+      {
+        "type": "list_item",
+        "depth": 1,
+        "text": "Kaggle sección de aprendizaje: https://www.kaggle.com/learn",
+        "links": [
+          {
+            "url": "https://www.kaggle.com/learn",
+            "text": "https://www.kaggle.com/learn"
+          }
+        ]
+      }
+    ]
+  },
+  "python": {
+    "name": "Python",
+    "icon": "🐍",
+    "elements": [
+      {
+        "type": "paragraph",
+        "text": "Curso de Python https://www.deeplearning.ai/short-courses/ai-python-for-beginners/",
+        "links": [
+          {
+            "url": "https://www.deeplearning.ai/short-courses/ai-python-for-beginners/",
+            "text": "https://www.deeplearning.ai/short-courses/ai-python-for-beginners/"
+          }
+        ]
+      },
+      {
+        "type": "list_item",
+        "depth": 1,
+        "text": "Intermedio",
+        "links": []
+      }
+    ]
+  },
+  "git": {
+    "name": "Git",
+    "icon": "🔶",
+    "elements": [
+      {
+        "type": "paragraph",
+        "text": "Introducción a Git: https://www.w3schools.com/git/",
+        "links": [
+          {
+            "url": "https://www.w3schools.com/git/",
+            "text": "https://www.w3schools.com/git/"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Aprende Git y GitHub - Curso desde cero: https://www.freecodecamp.org/espanol/news/aprende-git-y-github-curso-desde-cero/",
+        "links": [
+          {
+            "url": "https://www.freecodecamp.org/espanol/news/aprende-git-y-github-curso-desde-cero/",
+            "text": "https://www.freecodecamp.org/espanol/news/aprende-git-y-github-curso-desde-cero/"
+          }
+        ]
+      }
+    ]
+  },
+  "sql": {
+    "name": "SQL",
+    "icon": "❓",
+    "elements": [
+      {
+        "type": "paragraph",
+        "text": "Tutorial SQL: https://www.w3schools.com/sql/",
+        "links": [
+          {
+            "url": "https://www.w3schools.com/sql/",
+            "text": "https://www.w3schools.com/sql/"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "SQL Tutorial video: https://www.youtube.com/watch?v=HXV3zeQKqGY",
+        "links": [
+          {
+            "url": "https://www.youtube.com/watch?v=HXV3zeQKqGY",
+            "text": "https://www.youtube.com/watch?v=HXV3zeQKqGY"
+          }
+        ]
+      }
+    ]
+  }
+}

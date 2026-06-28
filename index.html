@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es" class="theme-dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOJO ML - Recursos</title>
+  <meta name="description" content="Directorio estructurado de recursos y cursos de aprendizaje para Matemáticas, Machine Learning, Deep Learning, IA, NLP, Robótica y más.">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Existing for legacy (Astro Space / Montserrat assumed from prior or local; Inter/Outfit kept for compatibility) -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@400;500;600;700;800&family=Montserrat:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <!-- New typography system fonts (Space Grotesk, Plus Jakarta Sans, JetBrains Mono) loaded via @import in global CSS per spec -->
+</head>
+<body>
+  <div class="app-layout">
+    <!-- Sidebar Navigation -->
+    <aside class="app-sidebar" id="appSidebar">
+      <div class="sidebar-brand">
+        <div class="brand-logo">
+          <span class="logo-emoji">🥋</span>
+          <div class="brand-text font-display" title="DOJO ML RECURSOS">
+            <span class="brand-title">DOJO ML <span class="brand-subtitle">RECURSOS</span></span>
+          </div>
+        </div>
+        <button class="sidebar-toggle-btn" id="sidebarToggleBtn" aria-label="Cerrar menú">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+        </button>
+      </div>
+
+      <nav class="sidebar-nav">
+        <div class="nav-section-title">Categorías</div>
+        <ul class="category-list" id="categoryList">
+          <!-- Dynamic category list goes here -->
+          <li class="loading-placeholder">Cargando categorías...</li>
+        </ul>
+      </nav>
+
+      <!-- Theme & Footer Info -->
+      <div class="sidebar-footer">
+        <div class="theme-switcher">
+          <button class="theme-btn active" id="themeDarkBtn" title="Tema Oscuro">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+            <span>Oscuro</span>
+          </button>
+          <button class="theme-btn" id="themeLightBtn" title="Tema Claro">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+            <span>Claro</span>
+          </button>
+        </div>
+        <div class="community-info">
+          <p>© 2026 DOJO ML</p>
+          <p>Hecho con ❤️ por la comunidad</p>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Main Content Area -->
+    <main class="app-main">
+      <!-- Mobile Navbar -->
+      <header class="mobile-navbar">
+        <button class="menu-btn" id="menuBtn" aria-label="Abrir menú">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+        </button>
+        <div class="mobile-title">DOJO ML Recursos</div>
+        <div class="spacer"></div>
+      </header>
+
+      <!-- Global Search & Stats Panel -->
+      <section class="search-panel">
+        <div class="search-box">
+          <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+          <input type="text" id="searchInput" placeholder="Buscar cursos, tutoriales, herramientas..." autocomplete="off">
+          <button class="search-clear-btn" id="searchClearBtn" aria-label="Limpiar búsqueda">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+          </button>
+        </div>
+        <div class="search-info" id="searchInfo">
+          <span class="results-count" id="resultsCount">0 recursos</span>
+        </div>
+      </section>
+
+      <!-- Main Resources Panel -->
+      <section class="content-panel">
+        <div class="category-header" id="categoryHeader">
+          <div class="category-meta">
+            <span class="category-icon" id="headerIcon">📐</span>
+            <h1 class="category-name" id="headerTitle">Matemáticas</h1>
+          </div>
+          <p class="category-desc" id="headerDesc">Cargando...</p>
+        </div>
+
+        <!-- Resources list container (populated dynamically) -->
+        <div class="resources-container" id="resourcesContainer">
+          <div class="loading-spinner"></div>
+        </div>
+
+        <!-- Empty State -->
+        <div class="empty-state" id="emptyState" style="display: none;">
+          <div class="empty-emoji">🔍</div>
+          <h3>No se encontraron recursos</h3>
+          <p>Intenta cambiar los términos de búsqueda o selecciona otra categoría.</p>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <!-- Notification Toast -->
+  <div class="toast-notification" id="toastNotification" role="alert" aria-live="assertive">
+    Enlace copiado al portapapeles
+  </div>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
